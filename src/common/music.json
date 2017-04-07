@@ -1,0 +1,29 @@
+{
+    "songlist" : [
+        {
+            "id" : 1,
+            "name" : "Mirror Night",
+            "url" : "http://m2.music.126.net/BSBhVxJlV6LZFkaJVSulEQ==/8887352487454859.mp3",
+            "imgurl" : "http://p3.music.126.net/LH7PtVBMt02PbphpyAiNmw==/6046214441318535.jpg"
+        },
+        {
+            "id" : 2,
+            "name" : "Princess (Tropical Remix)",
+            "url" : "http://m2.music.126.net/rSIQjIUuzm0IZWKG9htkWg==/18590542603003140.mp3",
+            "imgurl" : "http://p3.music.126.net/cg4X17qUz90lrdwpyZGr3g==/1377688085367990.jpg"
+        },
+        {
+            "id" : 3,
+            "name" : "金魚花火",
+            "url" : "http://m2.music.126.net/vxB5YjHJ7ebcH6ZT90Aruw==/18616930883314157.mp3",
+            "imgurl" : "http://p4.music.126.net/JTnFtAlxnZVl167gIY8HQw==/18822539557694199.jpg"
+        },
+        {
+            "id"   :  4,
+            "name" :  "Rё∀˥",
+            "url"  :  "http://m2.music.126.net/S4Qryl0KtkTecjFRAuWMTg==/1401877334554351.mp3",
+            "imgurl" : "http://p3.music.126.net/eONsW2cqGqk7syz5_FqLkQ==/1398578798682989.jpg"
+        }
+    ]
+}
+
