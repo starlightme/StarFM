@@ -9,3 +9,10 @@
 ## 效果图
 
 ![StarFM](StarFM.png)
+
+## Todo List
+
+- [ ] 移动端适配
+- [ ] 网易云API解析生成JSON文件(`music.json`)
+- [ ] 尽可能把原生部分替换为Vue的风格
+- [ ] AJAX请求?(没想好)
