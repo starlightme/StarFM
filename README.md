@@ -17,3 +17,7 @@
 - [ ] 尽可能把原生部分替换为Vue的风格
 - [ ] Vue组件化
 - [ ] AJAX请求?(没想好)
+
+## 致谢
+
+好友 [@regiondavid](https://github.com/regiondavid) 的帮助
