@@ -9,6 +9,10 @@
 
       <div class="controller">
 
+        <div class="tiny_pic">
+          <img v-bind:src=mus.songlist[counter].imgurl>
+        </div>
+
         <div class="songinfo">
           <div class="songname">
             <p> {{mus.songlist[counter].name}}</p>
@@ -149,7 +153,6 @@
 <style scoped>
 
 
-
   .cd {
     margin-top: 12%;
     margin-bottom: 1%;
@@ -253,5 +256,43 @@
     font-weight: 400;
     color: lavender;
   }
+
+
+
+  @media all and (max-height: 500px) and (max-width: 500px) {
+
+    .album {
+      display: none;
+    }
+    .tiny_pic {
+      float: left;
+      margin-left: 10px;
+    }
+    .tiny_pic img{
+      width: 80px ;
+      height: 80px;
+    }
+    .songinfo{
+      float: left;
+      margin: 0 0;
+
+    }
+    .songname{
+      float: left;
+      margin-left: 0px;
+      margin-top: 100px;
+    }
+
+  }
+
+
+
+  @media all and (min-height: 500px) and (min-width: 500px){
+    .tiny_pic{
+      display: none;
+    }
+
+  }
+
 
 </style>
