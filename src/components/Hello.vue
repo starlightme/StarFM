@@ -267,21 +267,30 @@
     .tiny_pic {
       float: left;
       margin-left: 10px;
+      margin-top: 5px;
     }
     .tiny_pic img{
-      width: 80px ;
-      height: 80px;
+      width: 70px ;
+      height: 70px;
+      border-radius: 10%;
+      background-repeat: no-repeat;
+      background-position: 50% 50%; /* 选取的图像焦点 */
+      background-size: cover;
+      border: 4px solid hsla(0, 0%, 100%, .5);
+      background: white;
+      background-clip: padding-box;
     }
-    .songinfo{
-      float: left;
-      margin: 0 0;
+    /*.songinfo{*/
+      /*position: fixed;*/
+      /*left: 0;*/
+      /*!*margin: 0 0;*!*/
 
-    }
-    .songname{
-      float: left;
-      margin-left: 0px;
-      margin-top: 100px;
-    }
+    /*}*/
+    /*.songname{*/
+      /*float: left;*/
+      /*!*margin-left: 0px;*!*/
+      /*!*margin-top: 100px;*!*/
+    /*}*/
 
   }
 
