@@ -153,6 +153,10 @@
 <style scoped>
 
 
+  .tiny_pic{
+    display: none;
+  }
+
   .cd {
     margin-top: 12%;
     margin-bottom: 1%;
@@ -265,6 +269,7 @@
       display: none;
     }
     .tiny_pic {
+      display: inline-block;
       float: left;
       margin-left: 10px;
       margin-top: 5px;
@@ -280,17 +285,7 @@
       background: white;
       background-clip: padding-box;
     }
-    /*.songinfo{*/
-      /*position: fixed;*/
-      /*left: 0;*/
-      /*!*margin: 0 0;*!*/
 
-    /*}*/
-    /*.songname{*/
-      /*float: left;*/
-      /*!*margin-left: 0px;*!*/
-      /*!*margin-top: 100px;*!*/
-    /*}*/
 
   }
 
