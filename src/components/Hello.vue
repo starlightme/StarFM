@@ -296,7 +296,7 @@
 
 
 
-  @media all and (min-height: 500px) and (min-width: 500px){
+  @media all and (min-height: 500px){
     .tiny_pic{
       display: none;
     }
