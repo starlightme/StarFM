@@ -16,11 +16,19 @@ def get_song_list_info(songlist_id):
     music_list = []
     cnt = 1
     for item in music_dict['result']['tracks']:
-        # print(item['name'])
-        # print(item['mp3Url'])
-        # print(item['album']['picUrl'])
-        music_list.append(  dict( id = cnt , name = item['name'] , url =  item['mp3Url'] , imgurl = item['album']['picUrl'] )  )
-        cnt += 1
+        # print(item['name'])               # song_name
+        # print(item['mp3Url'])             # music_url
+        # print(item['album']['picUrl'])    # album_pic
+        try:
+            r = requests.get(item['mp3Url'])
+            if r.status_code is 200:
+                music_list.append(  dict( id = cnt , name = item['name'] , url =  item['mp3Url'] , imgurl = item['album']['picUrl'] )  )
+                cnt += 1
+        except Exception as e:
+            print(e)
+            print(item['name'])
+        finally:
+            print('finish one')
     return music_list
 
  
