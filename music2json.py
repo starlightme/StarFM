@@ -31,8 +31,8 @@ if __name__ == '__main__':
     songlist_info = get_song_list_info(songlist_id)
     # print(songlist_info)
     result = dict( songlist = songlist_info)
-    print(result)
-    with open('music.json','w',encoding='utf-8') as fp:
+    #print(result)
+    with open('src/common/music.json','w',encoding='utf-8') as fp:
         json.dump(result,fp,encoding="UTF-8", ensure_ascii=False,indent=4)
 
  
