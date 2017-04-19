@@ -8,7 +8,7 @@
 
 ## 效果图
 
-![StarFM](StarFM.png)
+![StarFM](https://raw.githubusercontent.com/starlightme/StarFM/master/StarFM.png)
 
 ## Todo List
 
